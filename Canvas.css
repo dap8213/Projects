@@ -1,0 +1,44 @@
+h1{
+  text-align:center;
+}
+
+img{
+  position:relative;
+  left: 500px;
+}
+
+button{
+  position:relative;
+  left: 495px;
+  top: -5px;
+}
+
+.main-nav{
+  text-align:center;
+  list-style:none;
+
+}
+
+.main-nav li{
+  display:inline-block;
+  margin: 65px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+  color:#808080;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:90%;
+  border-bottom:1px solid transparent;
+  transition:border-bottom 0.8s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+  border-bottom:1px solid #808080;
+}
+
+a{
+  text-decoration: none;
+}
