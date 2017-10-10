@@ -14,26 +14,22 @@
         <h1><i>Subscribe Today!</i></h1>
 
         <ul class="main-nav">
-          <li><a href="Traveling.html">Home</a></li>
+          <li><a href="Traveling.php">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Special Deals</a></li>
           <li><a href="Subscribe.php">Subscribe</a></li>
         </ul>
-        <form action="Extended.php" method="post">
+        <form class="signup-form" action="includes/signup.inc.php" method="POST">
 
-          <input type="text" name="first_name" placeholder="First Name">
+          <input type="text" name="first" placeholder="Firstname">
           <br>
-          <input type="text" name="last_name" placeholder="Last Name">
+          <input type="text" name="last" placeholder="Lastname">
           <br>
-          <input type="text" name="phone_number" placeholder="Home Phone Number">
+          <input type="username" name="email" placeholder="E-mail">
           <br>
-          <input type="text" name="street_address" placeholder="Street Address">
+          <input type="username" name="uid" placeholder="Username">
           <br>
-          <input type="text" name="state" placeholder="State">
-          <br>
-          <input type="text" name="zip_code" placeholder="Zip Code">
-          <br>
-          <input type="password" name="password" placeholder="Enter Password">
+          <input type="password" name="pwd" placeholder="Password">
           <br>
           <input type="submit" name="submit">
 
