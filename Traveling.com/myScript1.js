@@ -1,6 +1,6 @@
 function start() {
     var rotator = document.getElementById('images');
-    var delayInSeconds = 4;
+    var delayInSeconds = 2;
 
     var images = ['Beach.jpg', 'Colombia.jpg', 'Island.jpg', 'castle.jpg', 'China.jpg'];
     var num = 0;

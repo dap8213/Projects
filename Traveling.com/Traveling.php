@@ -1,3 +1,9 @@
+<?php
+  if (isset($_SESSION['u_id'])){
+    echo "You are logged in!";
+  }
+  ?>
+
 <!DOCTYPE HTML>
 <html>
     <head>
