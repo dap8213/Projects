@@ -7,10 +7,14 @@ img{
   left: 500px;
 }
 
-button{
+#button1{
   position:relative;
   left: 495px;
   top: -5px;
+}
+
+#button2{
+  
 }
 
 .main-nav{

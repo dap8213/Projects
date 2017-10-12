@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 
 
-    $('button').click(function(e){
+    $('#button1').click(function(e){
       e.preventDefault();
       $('body').fadeOut(3000)
 
