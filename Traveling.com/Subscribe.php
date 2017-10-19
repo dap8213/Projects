@@ -7,7 +7,7 @@
         src="http://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
         crossorigin="anonymous"></script>
-        <script src="myScript.js"></script>
+        <script src="myScript1.js"></script>
         <link rel="stylesheet" type="text/css" href="Canvas2.css">
     </head>
     <body>

@@ -15,13 +15,13 @@ function start() {
 };
 window.onload=function(){
 start();
-}
+};
 
 $(document).ready(function() {
 
 
 
-    $('#button1').click(function(e){
+    $('#button2').click(function(e){
       e.preventDefault();
       $('body').fadeOut(3000)
 

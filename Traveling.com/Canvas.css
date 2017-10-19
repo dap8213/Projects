@@ -8,13 +8,13 @@ img{
 }
 
 #button1{
-  position:relative;
-  left: 495px;
-  top: -5px;
+
 }
 
 #button2{
-  
+  position:relative;
+  top: -5px;
+  text-align:right;
 }
 
 .main-nav{
