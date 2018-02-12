@@ -1,11 +1,11 @@
 
 function dropElements(arr, func) {
   // Drop them elements.
-  var droppedElement = 0;
-  var numElementDropped = 0;
+  var droppedElement;
+  var numElementDropped;
     console.log("arr[0]:" + arr[0]);
   for (var i = 0; i < arr.length; i++) {
-     if (arr[i] === droppedElement) {
+     if (arr[i] === numElementDropped) {
          console.log("It hit the index!");
       break;
     }
