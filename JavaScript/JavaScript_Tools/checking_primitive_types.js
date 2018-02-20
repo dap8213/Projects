@@ -37,6 +37,7 @@ function addTogether(x) {
   
   else {
     return function addTwo(y) {
+        // Checking if argument is an array!!
       if (!Array.isArray(y)) {
          return x + y;
       }
