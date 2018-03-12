@@ -1,0 +1,31 @@
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Yellow-Day.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: cursive;	
+    text-align: center;
+}
+
+html, body {
+  margin: 0; 
+  padding: 0;
+}
+
+
+/* Code gets rid of white space! */
+.row {
+    max-width: 1370px;
+    margin-top: -21px;
+}
+
+/* Code center text in block form! */
+p {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 28em;
+}
